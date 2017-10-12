@@ -55,8 +55,8 @@ body{
 .leadin-header{ /*for the header image*/
     overflow-x: hidden;
     position: relative;
-    padding-top: 25%;
-    padding-bottom: 25%;
+    padding-top: 20%;
+    padding-bottom: 20%;
     text-align: center;
     color:#36393f;
     background:url(../img/hero-img2.jpeg) no-repeat 50%;
@@ -73,8 +73,7 @@ body{
 .leadin-content>h1{
   margin:0;
   font-size:4em;
-  text-shadow: 1px 3px 8px rgba(0, 0, 0, 0.8);
-
+  color: #757575;
 }
 
 .leadin-divider{

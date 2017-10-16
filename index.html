@@ -4,104 +4,138 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>HW3 Portfolio</title>
+    <title>Geekwise Portfolio</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css"/>
     <link rel="stylesheet" href="css/stylesheet.css">
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
   </head>
   <body>
-
-    <div class="leadin-header">
-      <div class="container">
-        <div class="col-lg-12">
-          <div class="leadin-content">
-            <h1>Vincent Chho</h1>
-            <h3>ASDFASDF</h3>
-            <hr class="leadin-divider">
-          </div>
+    <div class="container-fluid target">
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#home">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+      </div>
+      <span class="hamburger" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    </div>
+    <section id="home" class="hero">
+      <div class="content">
+        <div class="header">
+          <h1>Hello my name is <span class="wamp">Vincent </span></h1>
+          <h3>Current location: <span class="wamp">Frenso, California</span></h3>
         </div>
       </div>
-    </div>
-
-    <div class="leadin-body-content">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="body-content present">
-              <div class="div40"></div>
-              <h1 class="leadin-title">ASDFASDF</h1>
-              <p>ASDFASDFASDF</p>
-              <div class="div40"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="div40"></div>
-    <div class="leadin-body-content dark">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="body-content text-right">
-              <div class="col-xs-12 col-sm-4">
-                <img src="img/#.png" alt="#">
-              </div>
-              <div class="col-xs-12 col-sm-8">
-                <div class="div40"></div>
-                <h1>ASDF</h1>
-                <p>ASDFASDFASDF</p>
-                <div class="div40"></div>
+    </section>
+    <div id="projects"class="container-fluid background1">
+        <div class="container">
+          <h2 id="projects-text" class="text-uppercase">Projects</h2>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="panel panel-default fixed-width center-block">
+                <div class="panel-body">
+                  <a href="https://codepen.io/chho_vince/full/kkWxbN" target="_blank"><img class="img-responsive center-block" src="http://via.placeholder.com/300x300" alt=""></a>
+                </div>
+                <div class="panel-footer ">
+                  <h3 class="footer-h3">freeCodecamp Tribute Page</h3>
+                  <p>First project that I had completed for freeCodeCamp. It is a tribute page that utilizes basic CSS and HTML with a Bootstrap plugin for a responsive web page. </p>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="leadin-body-content grey">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <p class="quote">ASDFASDF</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="leadin-body-content">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="col-xs-12 col-sm-4">
-              <div class="div40"></div>
-              <h1>ASDF</h1>
-              <p>ASDFASDF</p>
+            <div class="col-md-4">
+              <div class="panel panel-default fixed-width center-block">
+                <div class="panel-body">
+                  <a href="https://koalavc.github.io/web_test2/" target="_blank"><img class="img-responsive center-block" src="http://via.placeholder.com/300x300" alt=""></a>
+                </div>
+                <div class="panel-footer">
+                  <h3 class="footer-h3">Twitch.tv JSON API <i class="em em-video_game"></i></h3>
+                  <p>Created a web page that utilized the Twitch.tv JSON API to see if certain channels were
+                    either online, offline, or closed and what games they were playing. </p>
+                </div>
+              </div>
             </div>
-            <div class="col-xs-12 col-sm-8">
-              <img src="img/#" alt="#" class="img-responsive">
+            <div class="col-md-4">
+              <div class="panel panel-default fixed-width center-block">
+                <div class="panel-body">
+                  <a href="https://koalavc.github.io/web_test/" target="_blank"><img class="img-responsive center-block" src="http://via.placeholder.com/300x300" alt=""></a>
+                </div>
+                <div class="panel-footer">
+                  <h3 class="footer-h3">Weather API <i class="em em-sunny"></i></h3>
+                  <p>Project that utilizes both jQuery and making multiple API calls. One call
+                    gets longitude/latitude coordinates from freegeoip.net. Another call utilizes
+                    data from openweathermap for weather icons and current weather temperature. </p>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="leadin-body-content dark">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="body-content text-center">
-              <div class="div80"></div>
-              <h1>ASDF</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet nesciunt illo voluptatum, molestias accusamus deleniti rerum, qui pariatur maiores laudantium autem quos adipisci consectetur itaque at harum numquam odit dolores!</p>
-              <div class="div80"></div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="panel panel-default fixed-width center-block">
+                <div class="panel-body">
+                  <a href="https://vchho.github.io/v-portfolio/" target="_blank"><img class="img-responsive center-block" src="http://via.placeholder.com/300x300" alt=""></a>
+                </div>
+                <div class="panel-footer">
+                  <h3 class="footer-h3">Pure.css Portfolio</h3>
+                  <p>Previous portfolio using the Pure.css framework</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="panel panel-default fixed-width center-block">
+                <div class="panel-body">
+                  <a href=""><img class="img-responsive center-block" src="http://via.placeholder.com/300x300" alt=""></a>
+                </div>
+                <div class="panel-footer">
+                  <h3 class="footer-h3">Under construction&trade;</h3>
+                  <p>Coming Soon!</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
     </div>
-
+    <section class="about-myself">
+      <div class="container">
+          <h2 class="about-header text-uppercase">Who am I? </h2>
+          <div class="row">
+            <div class="col-md-6">
+              Wannabe web developer who tries his best to create beautiful and interactive websites. When I'm not coding I enjoy playing fighting games, consuming pho, and asdf. culpa ab dolore soluta, odit animi voluptate iure, illo, reprehenderit qui.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae voluptatem autem voluptates odio consequuntur perspiciatis, sapiente eum delectus repellendus culpa ab dolore soluta, odit animi voluptate iure, illo, reprehenderit qui.
+            </div>
+            <div class="col-md-6">
+              <h3>Skills</h3>
+              HTML / CSS / JavaScript / jQuery / Git / Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae voluptatem autem voluptates odio consequuntur perspiciatis, sapiente eum delectus repellendus culpa ab dolore soluta, odit animi voluptate iure, illo, reprehenderit qui.
+            </div>
+      </div>
+    </section>
+    <div class="div80"></div>
+    <footer class="footer-end" id="about" >
+      <div class="container">
+        <!-- <div class="col-sm-4 hidden-xs">
+          <ul class="list-unstyled">
+            <li>Created with Bootstrap</li>
+            <li>Created for Geekwise</li>
+            <li>Created for Geekwise</li>
+            <li>Created for Geekwise</li>
+          </ul>
+        </div> -->
+        <div class="col-sm-12 center">
+          <div>
+            <a href="https://github.com/koalavc" target="_blank"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+            <i class="fa fa-linkedin fa-3x" aria-hidden="true"></i>
+            <i class="fa fa-twitter fa-3x" aria-hidden="true"></i>
+          </div>
+            <p >Contact me at <a href="mailto:vincec362@gmail.com">vincec362@gmail.com</a></p>
+            <p>Created for Geekwise Academy's Mobile<br>
+               Friendly Websites</p>
+        </div>
+      </div>
+    </footer>
     <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+    <script src="js/smoothscroll.js"></script>
   </body>
 </html>

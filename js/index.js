@@ -1,6 +1,6 @@
 $( document ).ready(function() {
   // Main variables
-    var $aboutTitle = $('.about-myself .content h2');
+    // var $aboutTitle = $('.about-myself .content h2');
     var $developmentWrapper = $('.development-wrapper');
     var developmentIsVisible = false;
 
@@ -25,13 +25,6 @@ $( document ).ready(function() {
   $(window).scroll( function(){
 
     var bottom_of_window = $(window).scrollTop() + $(window).height();
-
-    /* ##### ABOUT MYSELF SECTION #### */
-    if( bottom_of_window > ($aboutTitle.offset().top + $aboutTitle.outerHeight())){
-      $('.about-myself .content h2').addClass('aboutTitleVisible');
-    }
-
-
 
 
 

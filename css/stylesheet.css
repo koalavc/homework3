@@ -10,7 +10,7 @@
 html,
 body{
   -webkit-font-smoothing:antialiased;
-  font-family:"Raleway",sans-serif;
+  font-family: "PT Sans", sans-serif;
   background:#fff;
   color:#333;
   width: 100%;
@@ -41,12 +41,12 @@ body{
 }
 
 .sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #a7f46c;
-    display: block;
-    transition: 0.3s;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #a7f46c;
+  display: block;
+  transition: 0.3s;
 }
 
 .sidenav a:hover {
@@ -54,39 +54,81 @@ body{
 }
 
 .sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
 }
-
-@media screen and (max-height: 450px) {
-  .sidenav {
-    padding-top: 15px;
-  }
-
-  .sidenav a {
-    font-size: 18px;
-  }
-
-  .hamburger {
-      font-size: 25px !important;
-  }
-}
-
-
 /*End of Hamburger Nav*/
 
-.leadin-content>h3{
-  color: #fdfdff;
-
+/*Beginning of Hero section*/
+.hero {
+  height: 100%;
+  background-color: #222426;
+  background-position: center;
 }
 
-.body-content .leadin-title{
-  font-size:3.5em;
-  margin:20px;
+.hero .content {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
 }
+
+.hero .content .header {
+  position: absolute;
+  top: 55%;
+  width: 100%;
+  -webkit-transform: translate(0%, -50%);
+  transform: translate(0%, -50%);
+  text-align: center;
+  opacity: 0;
+}
+
+.hero .content .header h1 {
+  color: #fff;
+  font-size:4.5em;
+  text-shadow: 0px 2px 3px #2d2d2d;
+}
+
+.hero .content .header h3 {
+  color: #fff;
+  font-size:1.5em;
+  text-shadow: 0px 2px 3px #2d2d2d;
+}
+
+.background1 {
+  background-color: #edf9f9;
+  padding-bottom: 50px;
+}
+
+.wamp {
+  color: #a7f46c;
+}
+
+.h3-hero {
+  color: #fff;
+}
+/*End of Hero*/
+
+/*Beginning of Projects section*/
+.footer-h3{
+  font-size: 20px;
+  color: #002440;
+}
+
+.fixed-width {
+  max-width: 300px;
+}
+
+#projects-text{
+  text-align: center;
+  display: block;
+  font-weight: 600;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+/*End of Project section*/
 
 .body-content h1,.body-content h2,.body-content h3 {
   font-family:Roboto;
@@ -94,40 +136,22 @@ body{
   margin-bottom:10px;
   }
 
-
 .dark{ /*gets the elements that have the clas dark*/
   background:#222426;
   color:#e9e9e9;
-  }
-
+}
 
 .div40{
   height:40px;
   min-height:40px;
-  }
+}
 
 .div80{
   min-height:80px;
-  }
-
-  .text-center {
-    text-align: center;
-  }
-
-.wamp {
-  color: #a7f46c;
 }
 
-.footer-h3{
-  font-size: 20px;
-  color: #002440;
-}
-
-body {
-  color: #444;
-  background: #f9f9f9;
-  font-size: 16px;
-  font-family: "PT Sans", sans-serif;
+.text-center {
+  text-align: center;
 }
 
 a {
@@ -140,37 +164,22 @@ section {
   width: 100%;
 }
 
-/*##### HERO SECTION #####*/
-.hero {
-  height: 100%;
-  background-color: #222426;
-  background-position: center;
+/*Beginning of About section*/
+.about-myself {
+  padding: 50px 20px;
 }
-.hero .content {
-  background: rgba(0, 0, 0, 0.5);
-  width: 100%;
-  height: 100%;
-}
-.hero .content .header {
-  position: absolute;
-  top: 55%;
-  width: 100%;
-  -webkit-transform: translate(0%, -50%);
-  transform: translate(0%, -50%);
+
+.about-myself .content {
   text-align: center;
-  opacity: 0;
-}
-.hero .content .header h1 {
-  color: #fff;
-  font-size:4.5em;
-  text-shadow: 0px 2px 3px #2d2d2d;
 }
 
-h3 {
-  color: #fff;
+.about-myself .content h2 {
+  color: #3d3d3d;
+  font-size: 3em;
+  margin-bottom: 20px;
 }
 
-#projects-text{
+.about-header {
   text-align: center;
   display: block;
   font-weight: 600;
@@ -178,40 +187,13 @@ h3 {
   padding-bottom: 50px;
 }
 
-.background1 {
-  background-color: #edf9f9;
-  padding-bottom: 50px;
-}
-
-/*##### ABOUT MYSELF SECTION #####*/
-.about-myself {
-  padding: 50px 20px;
-}
-.about-myself .content {
-  text-align: center;
-}
-.about-myself .content h2 {
-  color: #3d3d3d;
-  font-size: 3em;
-  margin-bottom: 20px;
-  -webkit-transform: translateY(-50px) scale(0);
-  transform: translateY(-50px) scale(0);
-  -webkit-transition: transform .7s;
-  -moz-transition: transform .7s;
-  transition: transform .7s;
-}
-
-.about-myself .content .aboutTitleVisible {
-  -webkit-transform: translateY(0px) scale(1);
-  transform: translateX(0px) scale(1);
-}
 .about-myself .content p span {
   color: #c0392b;
   font-weight: bold;
 }
+/*End of About section*/
 
-/*FOOTER*/
-
+/*Beginning of Footer section*/
 .footer-end {
   padding-top: 50px;
   height: 250px;
@@ -234,6 +216,11 @@ footer li {
   color: #a7f46c;
 }
 
+.col-sm-12 a:hover {
+  color: #a7f46c;
+}
+/*End of Footer section*/
+
 
 /*MEDIA QUERIES*/
 @media only screen and (max-width: 1024px) and (min-width: 601px) {
@@ -253,5 +240,23 @@ footer li {
 
   .hero .content .header h1 {
     font-size: 39px;
+  }
+
+  .hero .content .header h3 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+
+  .sidenav a {
+    font-size: 18px;
+  }
+
+  .hamburger {
+      font-size: 25px !important;
   }
 }

@@ -128,6 +128,8 @@ body{
   padding-top: 50px;
   padding-bottom: 50px;
 }
+
+
 /*End of Project section*/
 
 .body-content h1,.body-content h2,.body-content h3 {
@@ -190,6 +192,23 @@ section {
 .about-myself .content p span {
   color: #c0392b;
   font-weight: bold;
+}
+
+.class-height{
+  height: 8em;
+}
+
+.colored  {
+  font-size: 4em;
+  padding-left: 2%;
+  padding-right: 2%;
+  transition: all 0.5s;
+  transform-origin: center;
+  display: inline-block;
+}
+
+.colored:hover {
+  font-size: 5em;
 }
 /*End of About section*/
 

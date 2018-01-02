@@ -194,8 +194,15 @@ section {
   font-weight: bold;
 }
 
+.about-me {
+  padding-top: 4%;
+  padding-bottom: 4%;
+  font-weight:600;
+}
+
 .class-height{
   height: 8em;
+  padding-bottom: 15%;
 }
 
 .colored  {
@@ -263,6 +270,26 @@ footer li {
 
   .hero .content .header h3 {
     font-size: 20px;
+  }
+
+  .class-height{
+    padding-bottom: 16%;
+  }
+
+  .footer-end{
+    padding-top: 25%;
+  }
+
+  .colored {
+    padding: 3%;
+  }
+
+  .devicon-container {
+    padding-bottom: 30%;
+  }
+
+  .div80 {
+    min-height: 220px;
   }
 }
 

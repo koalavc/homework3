@@ -128,6 +128,8 @@ body{
   padding-top: 50px;
   padding-bottom: 50px;
 }
+
+
 /*End of Project section*/
 
 .body-content h1,.body-content h2,.body-content h3 {
@@ -191,6 +193,30 @@ section {
   color: #c0392b;
   font-weight: bold;
 }
+
+.about-me {
+  padding-top: 4%;
+  padding-bottom: 4%;
+  font-weight:600;
+}
+
+.class-height{
+  height: 8em;
+  padding-bottom: 15%;
+}
+
+.colored  {
+  font-size: 4em;
+  padding-left: 2%;
+  padding-right: 2%;
+  transition: all 0.5s;
+  transform-origin: center;
+  display: inline-block;
+}
+
+.colored:hover {
+  font-size: 5em;
+}
 /*End of About section*/
 
 /*Beginning of Footer section*/
@@ -244,6 +270,26 @@ footer li {
 
   .hero .content .header h3 {
     font-size: 20px;
+  }
+
+  .class-height{
+    padding-bottom: 16%;
+  }
+
+  .footer-end{
+    padding-top: 25%;
+  }
+
+  .colored {
+    padding: 3%;
+  }
+
+  .devicon-container {
+    padding-bottom: 30%;
+  }
+
+  .div80 {
+    min-height: 220px;
   }
 }
 

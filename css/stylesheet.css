@@ -121,14 +121,13 @@ body{
   max-width: 300px;
 }
 
-#projects-text{
+.projects-text{
   text-align: center;
   display: block;
   font-weight: 600;
   padding-top: 50px;
   padding-bottom: 50px;
 }
-
 
 /*End of Project section*/
 
@@ -247,8 +246,7 @@ footer li {
 }
 /*End of Footer section*/
 
-
-/*MEDIA QUERIES*/
+/*Beginning of Media Queries*/
 @media only screen and (max-width: 1024px) and (min-width: 601px) {
   .hamburger {
     font-size: 40px !important;
@@ -306,3 +304,4 @@ footer li {
       font-size: 25px !important;
   }
 }
+/*END OF MEDIA QUERIES*/

@@ -213,14 +213,14 @@ section {
   display: inline-block;
 }
 
-.colored:hover {
+/* .colored:hover {
   font-size: 5em;
-}
+} */
 /*End of About section*/
 
 /*Beginning of Footer section*/
 .footer-end {
-  padding-top: 50px;
+  padding-top: 89px;
   height: 250px;
   width: 100%;
   background-color: #222426;
@@ -243,6 +243,12 @@ footer li {
 
 .col-sm-12 a:hover {
   color: #a7f46c;
+}
+
+.fine-print{
+  padding-top: 5%;
+  text-align: center;
+  font-size: .6em;
 }
 /*End of Footer section*/
 
